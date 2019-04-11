@@ -1,0 +1,26 @@
+{
+  "name": "css-modules-bare-example",
+  "author": "Jakub Niewczas",
+  "version": "0.0.1",
+  "description": "Minimal example how to setup css modules for react using webpack",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -p --config ./webpack-frontend.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-react-css-modules": "^5.2.3",
+    "css-loader": "~2.x.x",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "react": "~16.8.x",
+    "react-dom": "~16.8.x",
+    "sass-loader": "^7.1.0",
+    "style-loader": "~0.23.x",
+    "webpack": "~4.29.x",
+    "webpack-cli": "^3.3.0"
+  }
+}
